@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./build",
+        "lib": ["es6", "dom", "es2017"],
+        "rootDir": "./src" /* assuming that your code live in ./src */,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "esModuleInterop": true
+    }
+}
